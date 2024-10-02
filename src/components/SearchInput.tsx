@@ -51,6 +51,7 @@ export default function SearchInput({
       <SearchIcon showIcon={showIcon} />
       <input
         type="text"
+        id="suggestions-input"
         ref={ref}
         spellCheck={false}
         value={searchString}
